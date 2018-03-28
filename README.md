@@ -191,6 +191,6 @@ Based on the bids that were submitted, Alice should now be the owner because she
 
 **Congratulations!** You have successfully transferred assets in a blockchain.
 
-![alt text](https://media.giphy.com/media/111ebonMs90YLu/giphy.gif)
+![alt text](https://media2.giphy.com/media/l49JHLpRSLhecYEmI/giphy.gif)
 
 
