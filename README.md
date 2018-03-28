@@ -193,4 +193,6 @@ Based on the bids that were submitted, Alice should now be the owner because she
 
 ![alt text](https://media2.giphy.com/media/l49JHLpRSLhecYEmI/giphy.gif)
 
+Learn more and see original at: https://developer.ibm.com/courses/all/blockchain-essentials/
+
 
