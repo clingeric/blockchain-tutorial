@@ -76,47 +76,46 @@ The registry is empty as no members have currently been defined.
 
 We will now add Charlie’s car to the Vehicle Asset registry.
 
-13. Click the Vehicle asset registry.
-14. This registry contains no assets currently. Click Create New Asset to add a new asset.
-15. Instantiate the car by adding a vehicle identification number (VIN) of 1234 and assign it to Charlie by adding to the JSON object as follows. (We use his email address to identify him; this was specified as the key field in the User definition by using the identified by statement.)
-16. Click Create New to add the new vehicle to the registry.
-17. View your newly added asset in the registry.
+1. Click the Vehicle asset registry.
+2. This registry contains no assets currently. Click Create New Asset to add a new asset.
+3. Instantiate the car by adding a vehicle identification number (VIN) of 1234 and assign it to Charlie by adding to the JSON object as follows. (We use his email address to identify him; this was specified as the key field in the User definition by using the identified by statement.)
+4. Click Create New to add the new vehicle to the registry.
+5. View your newly added asset in the registry.
 
 ## Step 4: Putting Vehicle up for Sale
 
 Next, we will put the car up for sale by creating a VehicleListing instance.
 
-18. Click the VehicleListing asset registry. Again, the VehicleListing registry should be empty.
-19. Click Create New Asset to add the asset.
-20. Update the fields and remove the random offers. Syntactic validation of the object occurs at this
+1. Click the VehicleListing asset registry. Again, the VehicleListing registry should be empty.
+2. Click Create New Asset to add the asset.
+3. Update the fields and remove the random offers. Syntactic validation of the object occurs at this
 point, so correct any errors if necessary.
-21. Click Create New to add the new vehicle listing to the registry.
-22. View the listing in the registry.
+4. Click Create New to add the new vehicle listing to the registry.
+5. View the listing in the registry.
 
 ## Step 5: Accept Bids for the Vehicle
 
 We will now let Alice and Bob bid on the vehicle.
-23. Click Submit Transaction.
-24. Let Alice put in a bid of 6000.
-25. Click Submit to submit the offer transaction.
+1. Click Submit Transaction.
+2. Let Alice put in a bid of 6000.
+3. Click Submit to submit the offer transaction.
 You can see that the transaction was successful in the Historian registry.
-26. Switch to view all transactions by clicking All Transactions.
-You can view the additional transactions for creating participants and assets. Click view data for
-more information.
-27. Let Bob put in a bid of 4000.
-28. Verify the transactions in the registry.
+4. Switch to view all transactions by clicking All Transactions.
+You can view the additional transactions for creating participants and assets. Click view data for more information.
+5. Let Bob put in a bid of 4000.
+6. Verify the transactions in the registry.
 Note that the transactions cannot be edited or individually deleted after they are submitted; this is one of the defining characteristics of a blockchain.
 
 ## Step 6: Close the Bid
 
 Now we want to close the bidding on the listing. To do so, we need to submit a CloseBidding transaction.
-29. Submit a new transaction. From the Transaction Type menu, select CloseBidding.
-30. Click Submit to submit the CloseBidding transaction.
-31. Verify that the transaction has been added to the blockchain transaction registry. Click view data to see the content of the transaction.
+1. Submit a new transaction. From the Transaction Type menu, select CloseBidding.
+2. Click Submit to submit the CloseBidding transaction.
+3. Verify that the transaction has been added to the blockchain transaction registry. Click view data to see the content of the transaction.
 Based on the bids that were submitted, Alice should now be the owner because she put in the highest bid. We should also be able to verify that the owner of the car has changed, and specific balances increased or decreased accordingly.
-32. Go to the Vehicle asset registry to see that the vehicle owner has been updated to Alice.
-33. Note that the following vehicle is owned by Alice in the vehicle registry.
-34. Go to the Member asset registry to see that Charlie’s balance has increased by the winning bid amount, and that Alice’s balance has decreased by the same.
+4. Go to the Vehicle asset registry to see that the vehicle owner has been updated to Alice.
+5. Note that the following vehicle is owned by Alice in the vehicle registry.
+6. Go to the Member asset registry to see that Charlie’s balance has increased by the winning bid amount, and that Alice’s balance has decreased by the same.
 
 **Congratulations!** You have successfully transferred assets in a blockchain.
 
