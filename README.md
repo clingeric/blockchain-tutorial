@@ -44,11 +44,11 @@ We will first instantiate three Member participants of the car auction business 
 
 The registry is empty as no members have currently been defined.
 
-2. Click on Member to view there are no current members in the environement
+2. Click on **Member** to view there are no current members in the environement
 
 ![alt text](https://github.com/clingeric/blockchain-tutorial/blob/master/img/8.PNG)
 
-3. Click Create New Participant to add a new Member.
+3. Click **Create New Participant** to add a new Member.
 
 ![alt text](https://github.com/clingeric/blockchain-tutorial/blob/master/img/9.PNG)
 
@@ -56,7 +56,7 @@ The registry is empty as no members have currently been defined.
 
 ![alt text](https://github.com/clingeric/blockchain-tutorial/blob/master/img/10.PNG)
 
-5. Click Create New to add Alice to the registry.
+5. Click **Create New** to add Alice to the registry.
 
 ![alt text](https://github.com/clingeric/blockchain-tutorial/blob/master/img/11.PNG)
 
